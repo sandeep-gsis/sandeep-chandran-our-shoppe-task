@@ -14,7 +14,7 @@ const ProductCard = ({ product, discount }) => {
 
             {
                 // Check whether discount is set, if set, call the Label Component to display it.
-                discount && <Label className='self-' label={discount} />
+                discount && <Label label={discount} />
             }
         </div>
     )

@@ -49,7 +49,7 @@ const SubCategorySection = () => {
                         return (
                             <li
                                 key={category.id}
-                                className='flex flex-col gap-2 sm:gap-5 w-[136px] sm:w-[180px] min-w-[136px]'
+                                className='flex flex-col gap-2 sm:gap-5 w-[136px] sm:w-[180px] min-w-[136px] items-center'
                             >
                                 <img
                                     className='w-full'
