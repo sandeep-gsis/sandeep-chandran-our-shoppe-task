@@ -24,3 +24,23 @@
         scrollbar-width: none; /* Firefox */
     }
 }
+
+.swiper-button-prev {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0 1rem 1rem 0;
+    left: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    box-shadow: 2px 2px 8px #aaa;
+}
+.swiper-button-prev::after {
+    font-size: 15px !important;
+    color: #bdbdbd;
+}
+
+.swiper-button-next {
+    display: none !important;
+}
