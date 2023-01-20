@@ -18,7 +18,9 @@ module.exports = {
             colors: {
                 'shopee-purple': '#7D23C7',
                 'shopee-blue': '#320D9A',
-                orange: '#F2994A',
+                'shopee-orange': '#F2994A',
+                'shopee-red': '#EB5757',
+                'shopee-lightblue': '#D7D7FF',
             },
         },
     },

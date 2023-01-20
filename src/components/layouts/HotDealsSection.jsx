@@ -1,3 +1,5 @@
+import Timer from '../components/Timer'
+
 const HotDealsSection = () => {
     const hotDealsItems = [
         {
@@ -37,21 +39,22 @@ const HotDealsSection = () => {
                         return (
                             <li
                                 key={item.id}
-                                className=' flex flex-col items-center justify-between  min-w-[180px] sm:min-w-[290px]  p-3 border border-orange rounded-xl'
+                                className=' flex flex-col items-center justify-between  min-w-[180px] sm:min-w-[290px] border border-shopee-orange rounded-xl'
                             >
                                 <img
                                     className='w-3/4 '
                                     src={item.image}
                                     alt={item.title}
                                 />
-                                <div className='font-[Open_Sans] text-center'>
+                                <Timer />
+                                <div className='font-[Open_Sans] text-center px-[10px]'>
                                     <h2 className='sm:text-[.90rem] text-[.6875rem]  min-h-[3rem] my-1'>
                                         {item.title}
                                     </h2>
                                     <p className='font-extrabold  text-shopee-blue sm:text-[1.5rem]'>
                                         AED {item.price}.00
                                     </p>
-                                    <button className='px-8 py-1 text-[.875rem] text-orange border-orange border my-3 rounded-md '>
+                                    <button className='px-8 py-1 text-[.875rem] text-shopee-orange border-shopee-orange border my-3 rounded-md '>
                                         Add to Cart
                                     </button>
                                 </div>
