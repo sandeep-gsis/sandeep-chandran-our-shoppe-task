@@ -73,7 +73,7 @@ const TopBrandsSection = () => {
             <div className='mt-5'>
                 <Brands />
             </div>
-            <div className='mt-5 hidden md:visible '>
+            <div className='mt-5 hidden md:block '>
                 <Brands />
             </div>
         </section>
